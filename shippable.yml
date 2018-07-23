@@ -10,12 +10,4 @@ build:
     pull: true
     
   ci:
-    - python --version     
-    - docker pull shippabledocker/sample_node_pvt:ecr
-    
-integrations:
-    
-  hub:
- #Docker integration
-    - integrationName: ship-docker
-      type: dockerRegistryLogin
+    - python --version 
